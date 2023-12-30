@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.f50center-align {
+    text-align: center;
+    font-size: 50;
+}
+
+.content-sample {
+    font-size: 100px;
+    flex-grow: 12;
+    display: flex;
+    justify-content: center;
+}
+
+/* Placeholder, to be removed*/
+
+#layout-column {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /* to be changed */
+}
+
+#layout-column>* {
+    align-items: center;
+    border: 1px solid black;
+}
